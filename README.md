@@ -1,3 +1,12 @@
+Here's the expected output;
+===== RESTART: C:/Stuff/ProgramCode/Python 3.8/book-p16.py =====
+Point constructor
+{X:10, Y:20}
+Point constructor
+Circle constructor
+{X:100, Y:100},{RADIUS=50}
+
+
 # More-Python-Programming-p.16
 Shows the example on page 16 with errors I made discussed in readme.
 #single inheritance example from the book,  page 16.
