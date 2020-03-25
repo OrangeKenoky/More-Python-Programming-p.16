@@ -1,3 +1,5 @@
+Note: this is a readme but it comes out formatted all funny. Why?  Would have expected plain text.
+
 Here's the expected output;
 ===== RESTART: C:/Stuff/ProgramCode/Python 3.8/book-p16.py =====
 Point constructor
@@ -12,8 +14,9 @@ Shows the example on page 16 with errors I made discussed in readme.
 #single inheritance example from the book,  page 16.
 
 class Point():
-    x=0.0
-    y=0.0
+    #note - the next two lines appear to initialize x and y as floating point but... they aren't needed.  Or are they?
+    #x=0.0
+    #y=0.0
     #error 1 -
     # on the next line and similar lines below, I only used one "_".  Two are needed!  Double underline init statements! DUNDER!
     def __init__(self, x, y):
@@ -24,7 +27,8 @@ class Point():
         return "{X:"+str(self.x)+", Y:"+str(self.y)+"}"
 
 class Circle(Point):
-    radius =0.0
+    #Note - similar to note for x and y above... is the radius = 0.0 needed?  Does not appear to accomplish anything.
+    #radius =0.0
     def __init__(self,x,y,radius):
         super().__init__(x,y)
         self.radius=radius
